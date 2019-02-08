@@ -12,14 +12,15 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Gravitas One', cursive;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Rammetto One', cursive;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 .img-flex {
@@ -48,5 +49,5 @@ html {
 }
 
 .persimmon h2 {
-  font-family: Confortaa;
+  font-family: Comfortaa;
 }
